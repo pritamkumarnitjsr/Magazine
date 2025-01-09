@@ -1,0 +1,12 @@
+package com.deloitte.onlinemagazine.dao;
+
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+import com.deloitte.onlinemagazine.model.Magazine;
+
+@Repository
+public interface MagazineDao extends CrudRepository<Magazine, Integer>{
+	
+
+}
